@@ -64,8 +64,8 @@ body {
 .fond {
   position: relative;
   width: 100%;
-  height: 100px;
-  background: url("css/images/photo.fond.webp") center/cover no-repeat;
+  height: 100vh;
+  background: url("css/images/photo.fond.webp") center no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
