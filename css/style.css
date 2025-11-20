@@ -85,21 +85,20 @@ body {
   height: auto;
 }
 
- @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 20px;
-      justify-content: space-between;
-    }
+@media (max-width: 768px) {
+  .navbar {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  justify-content: space-between;
+  }
   
-    .gauche img {
-      width: 50px;
-      margin-bottom: 7px;
-      margin-left: 0px; 
-      margin-right: 20px;
-    
-    }
+  .gauche img {
+  width: 50px;
+  margin-bottom: 7px;
+  margin-left: 0px; 
+  margin-right: 20px;
+  }
   
     .menu {
       flex-direction: row;
@@ -176,25 +175,25 @@ main {
 
 @media (max-width: 768px) {
   
-    .image-div {
-      height: auto; 
-      display: flex;
-      flex-direction: column; 
-    }
+.image-div {
+height: auto; 
+display: flex;
+flex-direction: column; 
+}
 
-    .image-div img {
-      height: 300px; 
-      width: 100%;
-    }
+.image-div img {
+height: 300px; 
+width: 100%;
+}
 
-    .overlay-text {
-      position: relative;
-      width: 100%;
-      height: auto;
-      top: auto;
-      right: auto;
-      padding: 2rem;
-    }
+.overlay-text {
+position: relative;
+width: 100%;
+height: auto;
+top: auto;
+right: auto;
+padding: 2rem;
+}
 }
 
 .salles-section {
