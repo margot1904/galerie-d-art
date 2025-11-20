@@ -65,7 +65,7 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url("css/images/photo.fond.webp") center no-repeat;
+  background: url("images/photo.fond.webp");
   display: flex;
   align-items: center;
   justify-content: center;
