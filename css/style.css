@@ -73,7 +73,6 @@ body {
 .overlay-hero {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.35);
   background: url("images/photo.fond.png") center/cover no-repeat;
   z-index: 1;
 }
