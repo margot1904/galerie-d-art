@@ -176,42 +176,66 @@ main {
 @media (max-width: 768px) {
 
   .image-div {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    overflow: visible;
-    margin: 1.5rem auto 0;
-    }
-  
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+    position: relative !important;
+    margin: 1.6rem auto 0 !important;
+    box-sizing: border-box !important;
+  }
+
   .image-div img {
-   order: 1;
-   width: 100%;
-   height: auto;
-   object-fit: cover;
-   display: block;
-   }
-  
+    order: 1 !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 0 !important;
+  }
+
   .overlay-text {
-   order: 2;
-   position: static;
-   width: 100%;
-   height: auto;
-   background-color: rgba(186, 167, 153, 0.98);
-   padding: 1.6rem 1.25rem;
-   box-sizing: border-box;
-   display: block;
-   text-align: left;
-    }
-  
-   .overlay-text p {
-   margin: 0;
-   font-size: 0.95rem;
-   line-height: 1.6;
-   }
- }
+    order: 2 !important;
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    background-color: rgba(186,167,153,0.98) !important;
+    padding: 1.6rem 1.25rem !important;
+    box-sizing: border-box !important;
+    display: block !important;
+    text-align: left !important;
+    margin: 0 0 2.4rem 0 !important;
+    z-index: 1 !important;
+    clear: both !important;
+  }
+
+  .overlay-text p {
+    margin: 0 !important;
+    font-size: 0.95rem !important;
+    line-height: 1.6 !important;
+  }
+
+  .image-div + * {
+    margin-top: 2.6rem !important;
+    padding-top: 0 !important;
+  }
+
+  .image-div img, .image-div * {
+    float: none !important;
+  }
+
+  .image-div,
+  .image-div * {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
 
 .salles-section {
   padding: 2rem 6vw 4rem;
